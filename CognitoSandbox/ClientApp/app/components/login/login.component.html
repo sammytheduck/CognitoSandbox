@@ -1,0 +1,19 @@
+﻿
+<h2>Create New User</h2>
+<input type="email" [(ngModel)]="NewUserName" placeholder="username (email address)" />
+<input type="password" [(ngModel)]="NewUserPassword" placeholder="password" />
+<button type="button" (click)="RegisterNewUser()">Submit</button>
+
+<br />
+
+<h2>Login</h2>
+<input type="email" [(ngModel)]="LoginUserName" placeholder="username (email address)" />
+<input type="password" [(ngModel)]="LoginUserPassword" placeholder="password" />
+<button type="button" (click)="Login()">Submit</button>
+
+<br/>
+
+<h2>Data</h2>
+<button type="button" (click)="GetVehicleMakeSettings()">Get Settings</button>
+<br/>
+<textarea rows="30" cols="100" [(ngModel)]="VehicleMakeSettings"></textarea>
