@@ -1,6 +1,6 @@
 ﻿import { Component, NgModule } from '@angular/core';
 import { AuthenticationDetails, CognitoUser, CognitoUserPool, CognitoUserSession, CognitoUserAttribute } from 'amazon-cognito-identity-js';
-import { CognitoAuth } from 'amazon-cognito-auth-js';
+//import { CognitoAuth } from 'amazon-cognito-auth-js';
 import { Http, RequestOptions, Headers } from '@angular/http'; // Http will be deprecated, use HttpClient after updating to latest version of Angular
 
 @Component({
